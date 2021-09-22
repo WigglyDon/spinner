@@ -1,12 +1,3 @@
-let timer = 0;
-
-// while(timer < 100) {
-//   setTimeout(() => {
-//     process.stdout.write('hello from spinner1.js... \rheyyy\n');
-//   }, timer * 100);
-//   timer ++;
-// }
-
 setTimeout(() => {
   process.stdout.write('\r| ');
 }, 500);
